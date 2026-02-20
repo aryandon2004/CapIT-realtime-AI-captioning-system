@@ -1,6 +1,6 @@
-# 🎤 SpeakSync — Real-Time Classroom Captioning System
+#CapIT-realtime-AI-captioning-system
 
-SpeakSync is an AI-powered real-time speech-to-text system designed for classrooms and meetings. It generates live captions from speech with low latency and offline processing.
+CapIT-realtime-AI-captioning-system is an AI-powered real-time speech-to-text system designed for classrooms and meetings. It generates live captions from speech with low latency and offline processing.
 
 ## Features
 

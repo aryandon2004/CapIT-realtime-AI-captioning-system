@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SpeakSync — Live Captions</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h1>🎤 SpeakSync — Live Classroom Captions</h1>
+
+<div id="captions">Listening...</div>
+
+<script>
+const source = new EventSource("/stream");
+
+source.onmessage = function(event) {
+    document.getElementById("captions").innerText = event.data;
+};
+</script>
+
+</body>
+</html>

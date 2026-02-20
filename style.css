@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f5f5f5;
+}
+
+#captions {
+    margin-top: 40px;
+    font-size: 28px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
